@@ -1,0 +1,149 @@
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(backimg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  height: 91vh;
+}
+
+table {
+  margin: 50px auto;
+  width: 295px;
+  max-width: 295px;
+  height: 325px;
+  border: 0.5px dotted #000;
+  text-align: center;
+  border-radius: 10px;
+  padding-right: 10px;
+
+  background: #222; /* fallback for old browsers */
+
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+input {
+  outline: 0;
+  position: relative;
+  left: 5px;
+  top: 5px;
+  border: 0;
+  color: #495069;
+  background-color: #ddf;
+  border-radius: 5px;
+  width: 60px;
+  height: 50px;
+  float: left;
+  margin: 5px;
+  font-size: 20px;
+  box-shadow: 0 4px rgba(0, 0, 0, 0.2);
+  margin-bottom: 15px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+input:hover {
+  color: #495069;
+  background-color: #ccf;
+  border-radius: 5px;
+  width: 60px;
+  height: 50px;
+  font-size: 20px;
+  box-shadow: 0 1px #b0d2cf;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+input:active {
+  color: #062186;
+  background-color: #eef;
+  border-radius: 4px;
+  width: 60px;
+  height: 50px;
+  float: left;
+  font-size: 20px;
+  box-shadow: none;
+}
+input[type='button'] {
+  cursor: pointer;
+}
+
+#display {
+  width: 207px;
+  max-width: 207px;
+  font-size: 26px;
+  text-align: right;
+  background-color: #bbf;
+  float: left;
+  box-shadow: 0 4px rgba(0, 0, 0, 0.1);
+}
+
+#display:hover {
+  font-size: 26px;
+  text-align: right;
+  background-color: #aaf;
+  box-shadow: 0 4px rgba(0, 0, 0, 0.1);
+}
+
+#display:active {
+  font-size: 26px;
+  text-align: right;
+  background-color: #fff;
+  box-shadow: 0 4px rgba(0, 0, 0, 0.2);
+}
+
+.operator {
+  background-color: #77f;
+  position: relative;
+}
+
+.operator:hover {
+  background-color: #66f;
+  box-shadow: 0 2px #4960ca;
+}
+
+.operator:active {
+  top: 4px;
+  box-shadow: none;
+}
+
+#clear {
+  color: #000;
+  float: left;
+  position: relative;
+  display: block;
+  background-color: #44f;
+  cursor: pointer;
+  transition: all 300ms;
+  -webkit-transition: all 300ms;
+  -moz-transition: all 300ms;
+  -ms-transition: all 300ms;
+  -o-transition: all 300ms;
+}
+
+#clear:hover {
+  color: #000;
+  float: left;
+  display: block;
+  background-color: #33f;
+  margin-bottom: 15px;
+  box-shadow: none;
+}
+
+#clear:active {
+  color: #000;
+  float: left;
+  top: 4px;
+  display: block;
+  background-color: rgb(201, 57, 57);
+  margin-bottom: 15px;
+  box-shadow: none;
+}
